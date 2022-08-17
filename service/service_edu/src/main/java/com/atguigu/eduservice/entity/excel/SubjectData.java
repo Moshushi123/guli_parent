@@ -1,0 +1,18 @@
+package com.atguigu.eduservice.entity.excel;
+
+import com.alibaba.excel.annotation.ExcelProperty;
+import lombok.Data;
+
+/**
+ * @version 1.0
+ * @auther 刘欢龙
+ */
+@Data
+public class SubjectData {
+
+    @ExcelProperty(index = 0)
+    private String oneSubjectName;
+
+    @ExcelProperty(index = 1)
+    private String twoSubjectName;
+}
